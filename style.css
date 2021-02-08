@@ -117,6 +117,7 @@ h2 {
 }
 
 #btn-work:hover {
+  cursor: pointer;
   background: white;
   color: rgba(39, 111, 191, 1);
   transition: 0.2s;
@@ -178,7 +179,7 @@ h2 {
   text-align: center;
   width: 60%;
   margin: 0 auto;
-  background: white;                         /* White background */
+  background: #8B4886;                         /* White background */
   padding: 30px;                             /* Internal space */
   border-radius: 4px;                        /* Small radius */
   box-shadow: 0 10px 30px rgba(0,0,0,.1);
@@ -187,13 +188,28 @@ h2 {
 }
 
 ul {
-  list-style: none;
-  padding: 0;
+  text-align: center;
+  margin: auto;
 }
 
 body {
   background: rgba(234, 234, 234,0.02);
 }
-.josh h2 {
-  color: #431E1E;
+
+.special-title {
+  color:  white;
+}
+
+.flexbox {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon {
+  color: white;
+  font-size: 50px;
+}
+
+.center {
+  text-align: center;
 }
